@@ -3,8 +3,9 @@ import "./globals.css";
 import { Providers } from "@/components/layout/Providers";
 
 export const metadata: Metadata = {
-    title: "Factyo — Effortless invoicing",
-    description: "Modern invoicing for freelancers and ZZP in Europe.",
+    title: "Factyo — Modern invoicing",
+    description:
+        "Modern invoicing for freelancers and sole proprietors in Europe.",
 };
 
 export default function RootLayout({
