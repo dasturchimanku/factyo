@@ -90,6 +90,7 @@ export function OnboardingScreen() {
         iban: iban.trim() || undefined,
         defaultPaymentTermDays: Number(termDays) || 14,
         createdAt: new Date().toISOString(),
+        updatedAt: new Date().toISOString(),
       };
 
       const saved = await companyRepo.upsert(company);
